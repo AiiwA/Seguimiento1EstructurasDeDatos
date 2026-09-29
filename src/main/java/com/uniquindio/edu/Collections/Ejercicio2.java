@@ -17,9 +17,9 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         Ejercicio2 salaTriage = new Ejercicio2();
 
-        salaTriage.agregarPaciente("Juan Perez", 3);
-        salaTriage.agregarPaciente("Maria Lopez", 1);
-        salaTriage.agregarPaciente("Carlos Sanchez", 2);
+        salaTriage.agregarPaciente("Sofia Rojas", 2);
+        salaTriage.agregarPaciente("Mateo Diaz", 4);
+        salaTriage.agregarPaciente("Valentina Cruz", 1);
 
         salaTriage.atenderPacientes();
 

@@ -10,10 +10,10 @@ package com.uniquindio.edu.generics;
 public class Ejercicio4 {
 
     public static void main(String[] args) {
-        String[] nombres = {"Ana", "Luis", "Carlos"};
-        intercambiar(nombres, 0, 2);
-        for (String nombre : nombres) {
-            System.out.println(nombre);
+        String[] ciudades = {"Armenia", "Pereira", "Manizales"};
+        intercambiar(ciudades, 0, 2);
+        for (String ciudad : ciudades) {
+            System.out.println(ciudad);
         }
     }
 

@@ -18,9 +18,9 @@ public class Ejercicio7 {
 
     public static void main(String[] args) {
         Ejercicio7 listaMusical = new Ejercicio7();
-        listaMusical.agregarFavorita("Imagine");
-        listaMusical.agregarFavorita("Bohemian Rhapsody");
-        listaMusical.agregarFavorita("Imagine");
+        listaMusical.agregarFavorita("Viva la Vida");
+        listaMusical.agregarFavorita("Yellow");
+        listaMusical.agregarFavorita("Viva la Vida");
         listaMusical.mostrarFavoritas();
     }
 

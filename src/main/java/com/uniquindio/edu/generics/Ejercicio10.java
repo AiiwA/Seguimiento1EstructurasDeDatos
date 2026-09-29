@@ -12,10 +12,10 @@ public class Ejercicio10 {
 
     public static void main(String[] args) {
         CalculadoraAvanzada<Double> operaciones = new CalculadoraAvanzada<>();
-        System.out.println("Suma: " + operaciones.sumar(8.5, 2.5));
-        System.out.println("Resta: " + operaciones.restar(8.5, 2.5));
-        System.out.println("Maximo: " + operaciones.maximo(8.5, 2.5));
-        System.out.println("Minimo: " + operaciones.minimo(8.5, 2.5));
+        System.out.println("Suma: " + operaciones.sumar(6.5, 3.5));
+        System.out.println("Resta: " + operaciones.restar(6.5, 3.5));
+        System.out.println("Maximo: " + operaciones.maximo(6.5, 3.5));
+        System.out.println("Minimo: " + operaciones.minimo(6.5, 3.5));
     }
 
     /** Calculadora para tipos numéricos con orden natural. */

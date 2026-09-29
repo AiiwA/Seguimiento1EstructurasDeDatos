@@ -18,16 +18,16 @@ public class Ejercicio3 {
 
     public static void main(String[] args) {
         Ejercicio3 editor = new Ejercicio3();
-        editor.agregarCambio("Cambio 1");
-        editor.agregarCambio("Cambio 2");
-        editor.agregarCambio("Cambio 3");
+        editor.agregarCambio("Se agrego el titulo");
+        editor.agregarCambio("Se cambio el color");
+        editor.agregarCambio("Se inserto una imagen");
         editor.deshacer();
       
         IO.println("Historial de cambios:");
         editor.mostrarHistorial();
 
         IO.println("Nuevo historial ");
-        editor.agregarCambio("Cambio 4");
+        editor.agregarCambio("Se ajusto el tamano");
         editor.mostrarHistorial();
 
     }

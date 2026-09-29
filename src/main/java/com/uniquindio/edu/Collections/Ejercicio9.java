@@ -18,9 +18,9 @@ public class Ejercicio9 {
 
     public static void main(String[] args) {
         Ejercicio9 contactos = new Ejercicio9();
-        contactos.agregarContacto("Laura", "3001234567");
-        contactos.agregarContacto("Carlos", "3107654321");
-        System.out.println("Telefono de Laura: " + contactos.buscarTelefono("Laura"));
+        contactos.agregarContacto("Natalia", "3158884421");
+        contactos.agregarContacto("Samuel", "3014427630");
+        System.out.println("Telefono de Natalia: " + contactos.buscarTelefono("Natalia"));
     }
 
     /** Registra o actualiza el teléfono asociado a un nombre. */

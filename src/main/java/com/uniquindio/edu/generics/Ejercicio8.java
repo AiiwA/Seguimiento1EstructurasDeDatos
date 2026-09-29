@@ -15,9 +15,9 @@ public class Ejercicio8 {
 
     public static void main(String[] args) {
         AlmacenNumerico<Integer> inventario = new AlmacenNumerico<>();
-        inventario.guardar(8);
-        inventario.guardar(15);
-        inventario.guardar(4);
+        inventario.guardar(12);
+        inventario.guardar(27);
+        inventario.guardar(9);
         System.out.println("Maximo: " + inventario.maximo());
     }
 

@@ -15,7 +15,7 @@ public class Ejercicio9 {
 
     public static void main(String[] args) {
         ServicioNumerico<Integer> buscador = new ServicioNumerico<>();
-        List<Integer> numeros = new ArrayList<>(List.of(7, 2, 10, 4));
+        List<Integer> numeros = new ArrayList<>(List.of(11, 5, 18, 3));
         System.out.println("Minimo: " + buscador.minimo(numeros));
         System.out.println("Maximo: " + buscador.maximo(numeros));
     }

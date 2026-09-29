@@ -21,8 +21,8 @@ public class Ejercicio8 {
 
     public static void main(String[] args) {
         Ejercicio8 mensajesRecientes = new Ejercicio8();
-        for (int numero = 1; numero <= 12; numero++) {
-            mensajesRecientes.enviarMensaje("Mensaje " + numero);
+        for (int numero = 1; numero <= 13; numero++) {
+            mensajesRecientes.enviarMensaje("Nota recibida " + numero);
         }
         System.out.println(mensajesRecientes.obtenerUltimosMensajes());
     }

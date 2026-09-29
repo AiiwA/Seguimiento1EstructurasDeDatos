@@ -13,7 +13,7 @@ import java.util.Objects;
 public class Ejercicio5 {
 
     public static void main(String[] args) {
-        Par<Integer> pareja = new Par<>(10, 10);
+        Par<Integer> pareja = new Par<>(14, 14);
         System.out.println("Los valores son iguales: " + pareja.sonIguales());
     }
 

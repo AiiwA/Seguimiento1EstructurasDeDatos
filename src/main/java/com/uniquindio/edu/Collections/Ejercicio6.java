@@ -15,9 +15,9 @@ public class Ejercicio6 {
     HashSet<Empleado> empleados = new HashSet<>();
     public static void main(String[] args) {
         Ejercicio6 controlAcceso = new Ejercicio6();
-        controlAcceso.agregarEmpleados(new Empleado("001", "Juan"));
-        controlAcceso.agregarEmpleados(new Empleado("002", "María"));
-        controlAcceso.agregarEmpleados(new Empleado("003", "Pedro"));
+        controlAcceso.agregarEmpleados(new Empleado("E-14", "Camila"));
+        controlAcceso.agregarEmpleados(new Empleado("E-27", "Andres"));
+        controlAcceso.agregarEmpleados(new Empleado("E-31", "Juliana"));
     }
 
     /** Agrega un empleado únicamente si su identificador no está registrado. */

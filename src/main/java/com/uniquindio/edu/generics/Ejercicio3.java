@@ -15,8 +15,8 @@ public class Ejercicio3 {
 
     public static void main(String[] args) {
         ListaContenedor<String> listaNombres = new ListaContenedor<>();
-        listaNombres.agregar("Ana");
-        listaNombres.agregar("Luis");
+        listaNombres.agregar("Daniela");
+        listaNombres.agregar("Tomas");
         System.out.println(listaNombres.obtener(1));
     }
 

@@ -13,12 +13,12 @@ public class Ejercicio5 {
 
     public static void main(String[] args) {
         Empresa inventario = new Empresa();
-        inventario.agregarProducto(new Producto("P003", "Teclado", 85000));
-        inventario.agregarProducto(new Producto("P001", "Monitor", 650000));
-        inventario.agregarProducto(new Producto("P002", "Mouse", 45000));
+        inventario.agregarProducto(new Producto("A210", "Cuaderno", 18000));
+        inventario.agregarProducto(new Producto("A105", "Lapicero", 4500));
+        inventario.agregarProducto(new Producto("A160", "Mochila", 125000));
 
         System.out.println("Productos: " + inventario.productos);
-        System.out.println("Producto encontrado: " + inventario.buscarProducto("P002"));
+        System.out.println("Producto encontrado: " + inventario.buscarProducto("A160"));
     }
 
     /** Gestiona productos ordenados por código. */

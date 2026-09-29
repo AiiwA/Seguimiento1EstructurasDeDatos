@@ -12,7 +12,7 @@ public class Ejercicio7 {
 
     public static void main(String[] args) {
         Comparador<String> orden = new Comparador<>();
-        System.out.println(orden.mayor("Ana", "Luis"));
+        System.out.println(orden.mayor("Marta", "Julian"));
     }
 
     /** Comparador de valores con orden natural. */

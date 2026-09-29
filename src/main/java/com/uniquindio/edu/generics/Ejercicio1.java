@@ -12,11 +12,11 @@ public class Ejercicio1 {
 
     public static void main(String[] args) {
         Caja<String> texto = new Caja<>();
-        texto.guardar("Estructuras de datos");
+        texto.guardar("Aprendiendo Java");
         System.out.println(texto.obtener());
 
         Caja<Integer> numero = new Caja<>();
-        numero.guardar(25);
+        numero.guardar(42);
         System.out.println(numero.obtener());
     }
 

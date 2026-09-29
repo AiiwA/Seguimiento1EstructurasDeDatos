@@ -18,9 +18,9 @@ public class Ejercicio4 {
 
     public static void main(String[] args) {
         Ejercicio4 navegador = new Ejercicio4();
-        navegador.añadirPagina("yahoo.com");
-        navegador.añadirPagina("Youtube.com");
-        navegador.añadirPagina("mileroticos.com");
+        navegador.añadirPagina("biblioteca.edu");
+        navegador.añadirPagina("noticias.com");
+        navegador.añadirPagina("clima.com");
 
         IO.println("El historial actual es: ");
         navegador.mostrarHistorial();

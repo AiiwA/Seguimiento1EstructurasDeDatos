@@ -11,9 +11,9 @@ package com.uniquindio.edu.generics;
 public class Ejercicio2 {
 
     public static void main(String[] args) {
-        mostrarElemento("Hola generics");
-        mostrarElemento(2026);
-        mostrarElemento(3.14);
+        mostrarElemento("Dato de prueba");
+        mostrarElemento(18);
+        mostrarElemento(6.28);
     }
 
     /** Imprime un elemento de cualquier tipo manteniendo seguridad genérica. */

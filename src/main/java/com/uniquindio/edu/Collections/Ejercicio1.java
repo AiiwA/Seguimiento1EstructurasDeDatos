@@ -20,9 +20,9 @@ public class Ejercicio1 {
         Ejercicio1 agendaEventos = new Ejercicio1();
 
         LocalDate hoy = LocalDate.now();
-        agendaEventos.agregarEvento(hoy.plusDays(3), "Conferencia de Tecnología", 150);
-        agendaEventos.agregarEvento(hoy.plusDays(1), "Reunión de Negocios", 20);
-        agendaEventos.agregarEvento(hoy.plusDays(7), "Fiesta de Cumpleaños", 50);
+        agendaEventos.agregarEvento(hoy.plusDays(5), "Taller de Fotografía", 35);
+        agendaEventos.agregarEvento(hoy.plusDays(2), "Reunión del Equipo", 12);
+        agendaEventos.agregarEvento(hoy.plusDays(9), "Feria Universitaria", 80);
 
         agendaEventos.mostrarEventoProximo();
     }

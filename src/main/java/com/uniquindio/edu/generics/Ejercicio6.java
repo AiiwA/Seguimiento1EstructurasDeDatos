@@ -11,9 +11,9 @@ package com.uniquindio.edu.generics;
 public class Ejercicio6 {
 
     public static void main(String[] args) {
-        CajaNumerica<Integer> cajaEnteros = new CajaNumerica<>(15);
+        CajaNumerica<Integer> cajaEnteros = new CajaNumerica<>(21);
         System.out.println("Doble: " + cajaEnteros.doble());
-        System.out.println("Suma: " + sumar(4.5, 2.5));
+        System.out.println("Suma: " + sumar(7.5, 1.5));
     }
 
     /** Suma dos valores pertenecientes a tipos numéricos compatibles. */
